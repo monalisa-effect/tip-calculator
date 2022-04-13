@@ -17,6 +17,7 @@ result = (bill + (bill * tip_per)) / ppl
 
 #Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
 result = round(result, 2)
+result = "{:.2f}".format(result)
 
 print(f"Each person should pay: ${result}")
 
